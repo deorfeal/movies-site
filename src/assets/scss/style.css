@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+button {
+  background: unset;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  background: rgb(16, 16, 16);
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+html ::-webkit-scrollbar,
+body ::-webkit-scrollbar {
+  width: 10px;
+}
+html ::-webkit-scrollbar-track,
+body ::-webkit-scrollbar-track {
+  background: transparent;
+}
+html ::-webkit-scrollbar-thumb,
+body ::-webkit-scrollbar-thumb {
+  background: #9CA3AF;
+}
+html ::-webkit-scrollbar-thumb:hover,
+body ::-webkit-scrollbar-thumb:hover {
+  background: #9CA3AF;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1275px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-big {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=style.css.map */
